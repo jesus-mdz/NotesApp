@@ -5,10 +5,25 @@ struct StickyNoteDetailsView: View {
     let description: String
     
     var body: some View {
-        VStack {
-            Text(title)
-            Text(description)
+        HStack {
+            VStack {
+                HStack {
+                    Text(title).font(.system(size: 35))
+                    Spacer()
+                }
+                .padding(.bottom)
+                
+                HStack {
+                    Text(description).font(.system(size: 25))
+                    Spacer()
+                }
+                Spacer()
+            }
+            .padding()
+            
+            Spacer()
         }
+        .navigationBarHidden(true)
     }
 }
 
