@@ -6,18 +6,20 @@ struct StickyNoteView: View {
     let color: String
     
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 0)
-                .fill(Color.lavender)
-                .frame(width: 150, height: 150)
-            VStack {
-                Text(title)
-                    .font(.system(size: 30))
+        NavigationLink(destination: StickyNoteDetailsView(title: title, description: description)) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 0)
+                    .fill(Color.lavender)
+                    .frame(width: 150, height: 150)
+                VStack {
+                    Text(title)
+                        .font(.system(size: 30))
+                }
+                .frame(width: 180)
+                .foregroundColor(Color.steel)
             }
-            .frame(width: 180)
-            .foregroundColor(Color.steel)
+            .padding()
         }
-        .padding()
     }
 }
 

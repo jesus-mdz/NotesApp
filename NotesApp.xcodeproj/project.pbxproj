@@ -17,6 +17,7 @@
 		3D95BE0926DEACB000765849 /* StickyNoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95BE0826DEACB000765849 /* StickyNoteViewModel.swift */; };
 		3D95BE1126DEBC1F00765849 /* StickyNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95BE1026DEBC1F00765849 /* StickyNoteModel.swift */; };
 		3D95BE1326DEBC4C00765849 /* ColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95BE1226DEBC4C00765849 /* ColorsModel.swift */; };
+		3DAA90E826E270AD00D504AC /* StickyNoteDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA90E726E270AD00D504AC /* StickyNoteDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3D95BE0826DEACB000765849 /* StickyNoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteViewModel.swift; sourceTree = "<group>"; };
 		3D95BE1026DEBC1F00765849 /* StickyNoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteModel.swift; sourceTree = "<group>"; };
 		3D95BE1226DEBC4C00765849 /* ColorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModel.swift; sourceTree = "<group>"; };
+		3DAA90E726E270AD00D504AC /* StickyNoteDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		3D95BE1426DEC20C00765849 /* StickyNoteDetails */ = {
 			isa = PBXGroup;
 			children = (
+				3DAA90E726E270AD00D504AC /* StickyNoteDetailsView.swift */,
 			);
 			path = StickyNoteDetails;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				3D95BDFE26DE824E00765849 /* AddNoteButtonView.swift in Sources */,
 				3D95BDEB26DE80C800765849 /* ContentView.swift in Sources */,
 				3D95BDE926DE80C800765849 /* NotesAppApp.swift in Sources */,
+				3DAA90E826E270AD00D504AC /* StickyNoteDetailsView.swift in Sources */,
 				3D95BE0926DEACB000765849 /* StickyNoteViewModel.swift in Sources */,
 				3D95BE0026DE826400765849 /* StickyNoteView.swift in Sources */,
 				3D95BE0526DE885700765849 /* Color+Extensions.swift in Sources */,

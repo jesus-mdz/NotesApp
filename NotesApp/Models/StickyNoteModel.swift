@@ -27,6 +27,16 @@ extension StickyNoteModel {
             title: "Getting Groceries",
             description: "Get eggs, milk, butter, water, protein bars",
             color: "steel"
+        ),
+        StickyNoteModel(
+            title: "Workout",
+            description: "Biceps and Triceps, Legs",
+            color: "steel"
+        ),
+        StickyNoteModel(
+            title: "Meditation",
+            description: "Focus on goals, not past mistakes",
+            color: "steel"
         )
     ]
 }
